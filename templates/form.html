@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vak Form</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row p-2">
+        <p>
+            Circle or tick the answer that most represents how you generally behave. 
+            Select your answers and click on Submit.
+        </p>
+        <div class="col-sm-6 p-5">
+
+            1. When I operate new equipment I generally:
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) read the instructions first
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) listen to an explanation from someone who has used it before 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) go ahead and have a go, I can figure it out as I use it
+                </label>
+            </div>
+            <br>
+            
+            2. When I need directions for travelling I usually:
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) look at a map 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) ask for spoken directions
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q2" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) follow my nose and maybe use a compass
+                </label>
+            </div>
+            <br>
+              
+            3. When I cook a new dish, I like to: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) follow a written recipe
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) call a friend for an explanation 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q3" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) follow my instincts, testing as I cook
+                </label>
+            </div>
+            <br>
+
+            4. If I am teaching someone something new, I tend to: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) write instructions down for them 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) give them a verbal explanation
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q4" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) demonstrate first and then let them have a go 
+                </label>
+            </div>
+            <br>
+
+            5. I tend to say:
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) watch how I do it 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) listen to me explain 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q5" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) you have a go 
+                </label>
+            </div>
+            <br>
+
+            6. During my free time I most enjoy: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) going to museums and galleries 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) listening to music and talking to my friends
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q6" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) playing sport or doing DIY 
+                </label>
+            </div>
+            <br>
+
+            7. When I go shopping for clothes, I tend to: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) imagine what they would look like on 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) discuss them with the shop staff 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q7" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) try them on and test them out 
+                </label>
+            </div>
+            <br>
+
+            8. When I am choosing a holiday I usually:
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) read lots of brochures  
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) listen to recommendations from friends 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q8" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) imagine what it would be like to be there 
+                </label>
+            </div>
+            <br>
+
+            9. If I was buying a new car, I would: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q9" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) read reviews in newspapers and magazines 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q9" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) discuss what I need with my friends 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q9" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) test-drive lots of different types 
+                </label>
+            </div>
+            <br>
+
+            10. When I am learning a new skill, I am most comfortable: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q10" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) watching what the teacher is doing 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q10" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) talking through with the teacher exactly what I'm supposed to do 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q10" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) giving it a try myself and work it out as I go 
+                </label>
+            </div>
+            <br>
+
+            11. If I am choosing food off a menu, I tend to: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q11" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) imagine what the food will look like 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q11" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) talk through the options in my head or with my partner 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q11" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) imagine what the food will taste like 
+                </label>
+            </div>
+            <br>
+
+            12. When I listen to a band, I can’t help: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q12" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) watching the band members and other people in the audience 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q12" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) listening to the lyrics and the beats 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q12" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) moving in time with the music 
+                </label>
+            </div>
+            <br>
+
+            13. When I concentrate, I most often: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q13" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) focus on the words or the pictures in front of me 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q13" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) discuss the problem and the possible solutions in my head 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q13" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) move around a lot, fiddle with pens and pencils and touch things 
+                </label>
+            </div>
+            <br>
+
+            14. I choose household furnishings because I like: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q14" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) their colours and how they look 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q14" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) the descriptions the sales-people give me 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q14" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) their textures and what it feels like to touch them 
+                </label>
+            </div>
+            <br>
+
+            15. My first memory is of: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q15" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) looking at something 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q15" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) being spoken to 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q15" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) doing something 
+                </label>
+            </div>
+            <br>
+
+            16. When I am anxious, I: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q16" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) visualise the worst-case scenarios 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q16" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) talk over in my head what worries me most 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q16" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) can't sit still, fiddle and move around constantly 
+                </label>
+            </div>
+            <br>
+
+            17. I feel especially connected to other people because of: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q17" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) how they look 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q17" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) what they say to me 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q17" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) how they make me feel 
+                </label>
+            </div>
+            <br>
+
+            18. When I have to revise for an exam, I generally: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q18" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) write lots of revision notes and diagrams 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q18" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) talk over my notes, alone or with other people 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q18" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) imagine making the movement or creating the formula 
+                </label>
+            </div>
+            <br>
+
+            19. If I am explaining to someone I tend to: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q19" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) show them what I mean 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q19" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) explain to them in different ways until they understand 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q19" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) encourage them to try and talk them through my idea as they do it 
+                </label>
+            </div>
+            <br>
+
+            20. I really love: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q20" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) watching films, photography, looking at art or people watching 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q20" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) listening to music, the radio or talking to friends 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q20" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) taking part in sporting activities, eating fine foods and wines or dancing 
+                </label>
+            </div>
+            <br>
+
+            21. Most of my free time is spent: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q21" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) watching television 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q21" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) talking to friends 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q21" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) doing physical activity or making things 
+                </label>
+            </div>
+            <br>
+
+            22. When I first contact a new person, I usually: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q22" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) arrange a face to face meeting 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q22" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) talk to them on the telephone 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q22" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) try to get together whilst doing something else, such as an activity or a meal 
+                </label>
+            </div>
+            <br>
+
+            23. I first notice how people: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q23" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) look and dress 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q23" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) sound and speak 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q23" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) stand and move 
+                </label>
+            </div>
+            <br>
+
+            24. If I am angry, I tend to: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q24" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) keep replaying in my mind what it is that has upset me 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q24" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) raise my voice and tell people how I feel 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q24" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) stamp about, slam doors and physically demonstrate my anger 
+                </label>
+            </div>
+            <br>
+
+            25. I find it easiest to remember: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q25" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) faces 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q25" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) names 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q25" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) things I have done 
+                </label>
+            </div>
+            <br>
+
+            26. I think that you can tell if someone is lying if: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q26" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) they avoid looking at you 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q26" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) their voices changes 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q26" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) they give me funny vibes 
+                </label>
+            </div>
+            <br>
+
+            27. When I meet an old friend: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q27" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) I say “it's great to see you!” 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q27" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) I say “it's great to hear from you!” 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q27" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) I give them a hug or a handshake 
+                </label>
+            </div>
+            <br>
+
+            28. I remember things best by: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q28" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) writing notes or keeping printed details 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q28" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) saying them aloud or repeating words and key points in my head 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q28" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) doing and practising the activity or imagining it being done 
+                </label>
+            </div>
+            <br>
+
+            29. If I have to complain about faulty goods, I am most comfortable: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q29" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) writing a letter 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q29" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) complaining over the phone 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q29" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) taking the item back to the store or posting it to head office 
+                </label>
+            </div>
+            <br>
+
+            30. I tend to say: 
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q30" value="a">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    a) I see what you mean 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q30" value="b">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    b) I hear what you are saying 
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q30" value="c">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    c) I know how you feel 
+                </label>
+            </div>
+            <br>
+            
+
+
+            <button type="button" class="btn btn-secondary" onclick="storeRadioValues()">
+                Submit
+            </button>
+            <br><br>
+
+            <p id="result"></p>
+              
+            <br>
+        </div>
+        
+    </div>
+    
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        
+            function add(){
+                console.log("hello");
+
+                window.location = `"http://www.yoururl.com"`
+            }
+            
+        function storeRadioValues() {
+            
+
+            var ele = document.getElementsByTagName('input');
+            //let data = "";  
+            var count = {
+                "a": 0,
+                "b": 0,
+                "c": 0
+            };
+            for(i = 0; i < ele.length; i++) {
+                if(ele[i].type = "radio"){
+                    if(ele[i].checked){
+                        // if(i != ele.length-1)
+                        //     data = data + ele[i].value + ', ';
+                        // else
+                        //     data = data + ele[i].value;
+
+                        count[ele[i].value] += 1;
+                    }
+                        
+                }
+            }
+
+            console.log(count);
+            var maxm = 0;
+            var res = "";
+            for(var key in count){
+                if(count[key] >= maxm){
+                    maxm = count[key];
+                    res = key;
+                }
+            }
+
+
+            
+
+            if(res == "a"){
+                document.getElementById("result").innerHTML = `You are a VISUAL learner! <br> You can now start learning. <form action="/learn" method="POST"><Button type="submit" >Start Learning </Button></form>`;
+            }
+            else if(res == "b"){
+                document.getElementById("result").innerHTML = `You are a AUDITORY learner! <br> You can now start learning. <form action="/learn" method="POST"><Button type="submit">Start Learning </Button> </form>`;
+            } else{
+                document.getElementById("result").innerHTML = `You are a KINAESTHETIC learner! <br> You can now start learning. <form action="/learn" method="POST"><Button type="submit">Start Learning </Button></form>`;
+            }
+
+            // const textToBLOB = new Blob([data], { type: 'text/plain' });
+            // const FileName = 'FormData.txt';	   
+
+            // let newLink = document.createElement("a");
+            // newLink.download = FileName;
+
+            // if (window.webkitURL != null) {
+            //     newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+            // }
+            // else {
+            //     newLink.href = window.URL.createObjectURL(textToBLOB);
+            //     newLink.style.display = "none";
+            //     document.body.appendChild(newLink);
+            // }
+
+            // newLink.click(); 
+
+            // window.location.reload();
+
+
+
+
+
+        }
+
+        function radioValidation(){
+            var flag = true;
+
+            for(var i=1; i<=30; i++){
+
+                var q = document.getElementsByName('q' + i);
+                var qValue = false;
+
+                for(var i=0; i<q.length; i++){
+                    if(q[i].checked == true){
+                        qValue = true;    
+                    }
+                }
+
+                if(!qValue){
+                    alert("Please answer ALL questions!");
+                    flag = false;
+                    return false;
+                }
+                
+            }
+
+            if(flag == true){
+                storeRadioValues();
+            }
+            else{
+                return false;
+            }
+
+        }
+
+    </script>
+</body>
+</html>
