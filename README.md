@@ -1,3 +1,6 @@
-### Export this as environment variable!
+### Paths for usage -
 
-`GOOGLE_APPLICATION_CREDENTIALS="/path/to/service_account.json" python app.py`
+- `/` - Form for VAK learning!
+- `/callAdd` - Form for adding to firebase!
+- `/callDelete` - Form for deleting from firebase!
+- `/list` - API endpoint to list all data from firebase!
