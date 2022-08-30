@@ -7,7 +7,8 @@ body{
 
 .search {
   width: 100%;
-  position: relative;
+  /* position: relative;
+   */
   display: flex;
 }
 
@@ -41,8 +42,26 @@ body{
 /*Resize the wrap to see the search bar change!*/
 .wrap{
   width: 30%;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  /* top: 10%; */
+  background-color: "red";
+  /* left: 50%; */
+  transform: translate(90%, 0%);
+}
+
+#results {
+  /* background-color: red; */
+  margin-top: 50px;
+}
+
+#link{
+  color:blue;
+}
+
+#link :hover{
+  scale: 1.5;
+}
+
+#desc{
+  font-size: small;
 }

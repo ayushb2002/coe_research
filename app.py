@@ -1,5 +1,5 @@
-# from flask import Flask, redirect, render_template, url_for
-from crypt import methods
+from flask import Flask, redirect, render_template, url_for
+# from crypt import methods
 from nltk.stem import WordNetLemmatizer
 from fuzzywuzzy import fuzz
 from nltk.corpus import wordnet
@@ -13,6 +13,7 @@ cred = credentials.Certificate('key.json')
 default_app = initialize_app(cred)
 db = firestore.client()
 todo_ref = db.collection('todos')
+
 BASE = "http://127.0.0.1:5000/"
 # nltk.download('punkt')
 # nltk.download('averaged_perceptron_tagger')
@@ -22,6 +23,7 @@ BASE = "http://127.0.0.1:5000/"
 # Init the Wordnet Lemmatizer
 lemmatizer = WordNetLemmatizer()
 
+li = []
 
 def get_wordnet_pos(word):
     # Map POS tag to first character lemmatize() accepts
@@ -72,13 +74,17 @@ def my_form_post():
     print(dict_keywords)
 
     words = []
+
     for key in dict_keywords:
         if dict_keywords[key] > 0:
             words.append(key)
 
     print(words)
 
-    return "Your topic request is being processed..."
+    di = {}
+    di.add(2,"abc")
+
+    return redirect("http://127.0.0.1:5000/learn", code=302)
 
 
 @app.route('/callAdd', methods=['GET'])
