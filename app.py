@@ -12,8 +12,12 @@ app = Flask(__name__)
 cred = credentials.Certificate('key.json')
 default_app = initialize_app(cred)
 db = firestore.client()
+# <<<<<<< HEAD
 todo_ref = db.collection('todos')
 
+# =======
+# todo_ref = db.collection('keywords')
+# >>>>>>> 84dd66fafd764c527993fc9ae8ebd16abc773985
 BASE = "http://127.0.0.1:5000/"
 # nltk.download('punkt')
 # nltk.download('averaged_perceptron_tagger')
@@ -68,7 +72,7 @@ def my_form_post():
 
     for word in sentence_list:
         for key in dict_keywords:
-            if fuzz.ratio(word, key) > 80:
+            if fuzz.ratio(word, key) > 50:
                 dict_keywords[key] = dict_keywords[key] + 1
 
     print(dict_keywords)
